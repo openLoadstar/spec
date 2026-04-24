@@ -21,9 +21,12 @@
 - ADDRESS: W://현재_WayPoint_주소
 - SUMMARY: 작업 내용 요약
 - TECH_SPEC:
-  - [ ] 미완료 항목 (TASK)
-  - [x] YYYY-MM-DD 완료된 항목 (TASK)
-  - (R) 반복 수행 항목 (RECURRING — 테스트, 빌드 검증 등)
+  # TASK (1회성 구현 항목)
+  - [ ] 미완료 항목
+  - [x] YYYY-MM-DD 완료된 항목
+  # RECURRING (코드 변경 시마다 재수행)
+  - (R) 변경 후 mvn test 실행
+  - (R) ESLint 경고 0개 유지
 
 ### 5. ISSUE
 - (설계 시점 알려진 제약/미결 문제. 없으면 생략 가능)
