@@ -1,6 +1,5 @@
 <MAP>
 ## [ADDRESS] M://root
-## [STATUS] S_PRG
 
 ### IDENTITY
 - SUMMARY: 전체 프로젝트 계층 구조의 루트 노드
