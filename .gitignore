@@ -1,5 +1,3 @@
-internal/
-
 # AI agent local config
 .claude/
 .serena/

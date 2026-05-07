@@ -32,6 +32,7 @@ A project metadata management methodology shared between AI agents and humans. T
 - [examples/WP_TEMPLATE.md](examples/WP_TEMPLATE.md) — Standard WayPoint creation template
 - [examples/root_map.md](examples/root_map.md) — Root Map example
 - [examples/decision_sample.md](examples/decision_sample.md) — Decision record example
+- [internal/](internal/) — Design discussion drafts (**not part of SPEC**, AI tools should skip)
 
 ---
 
