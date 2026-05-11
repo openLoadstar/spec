@@ -17,23 +17,20 @@
   - ./
 
 ### TODO
-- ADDRESS: W://root/spec_v1_4_0_dwp_introduction
-- SUMMARY: dwp 도입에 따른 SPEC 본문 패치 (주소 체계, 요소 포맷, 스키마 정의, 템플릿, README 버전)
-- TECH_SPEC:
-  # TASK — SPEC 본문 패치
-  - [x] 2026-05-08 03.ADDRESS_CONVENTION.md — D 접두사 추가, TYPE_DIR에 DATA_WAYPOINT 매핑, 물리 경로 예시 추가
-  - [x] 2026-05-08 05.ELEMENT_FORMAT.md — 역할 비교표에 dwp 컬럼 추가, dwp 포맷 신규 섹션, dwp 작성 원칙 명문화, Map ITEMS 예시에 D:// 추가
-  - [x] 2026-05-08 02.SCHEMA_DEF.md §1 — STATUS 적용 대상에 dwp 포함
-  - [x] 2026-05-08 examples/DWP_TEMPLATE.md 신규 생성
-  - [x] 2026-05-08 README.md / README.ko.md — 버전 v1.3.13 → v1.4.0, Document Index의 05.ELEMENT_FORMAT 설명에 dwp 한 단어 보강
+# TASK — SPEC 본문 패치
+- [x] 2026-05-08 03.ADDRESS_CONVENTION.md — D 접두사 추가, TYPE_DIR에 DATA_WAYPOINT 매핑, 물리 경로 예시 추가
+- [x] 2026-05-08 05.ELEMENT_FORMAT.md — 역할 비교표에 dwp 컬럼 추가, dwp 포맷 신규 섹션, dwp 작성 원칙 명문화, Map ITEMS 예시에 D:// 추가
+- [x] 2026-05-08 02.SCHEMA_DEF.md §1 — STATUS 적용 대상에 dwp 포함
+- [x] 2026-05-08 examples/DWP_TEMPLATE.md 신규 생성
+- [x] 2026-05-08 README.md / README.ko.md — 버전 v1.3.13 → v1.4.0, Document Index의 05.ELEMENT_FORMAT 설명에 dwp 한 단어 보강
 
-  # TASK — 메타데이터 정리
-  - [x] 2026-05-08 M://root에 본 WP 등록 + SYNCED_AT 갱신
-  - [x] 2026-05-08 loadstar_SPEC 자기 자신에서 `loadstar validate` 통과 확인 (3 waypoints, 1 maps checked)
+# TASK — 메타데이터 정리
+- [x] 2026-05-08 M://root에 본 WP 등록 + SYNCED_AT 갱신
+- [x] 2026-05-08 loadstar_SPEC 자기 자신에서 `loadstar validate` 통과 확인 (3 waypoints, 1 maps checked)
 
-  # RECURRING
-  - (R) SPEC 변경 후 README의 버전 표기 동기화 확인
-  - (R) loadstar_cli/loadstar_ui/loadstar_SPEC 세 프로젝트에서 `loadstar validate` 통과 확인
+# RECURRING
+- (R) SPEC 변경 후 README의 버전 표기 동기화 확인
+- (R) loadstar_cli/loadstar_ui/loadstar_SPEC 세 프로젝트에서 `loadstar validate` 통과 확인
 
 ### ISSUE
 - OPEN_QUESTIONS: []

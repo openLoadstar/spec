@@ -2,7 +2,7 @@
 
 # LOADSTAR SPEC
 
-**Version: v1.4.0** (2026-05-08, prototype)
+**Version: v1.6.0** (2026-05-11, prototype)
 
 A project metadata management methodology shared between AI agents and humans. Tracks code modification intent and work units as **WayPoints**, with **URI-based pinpoint access** to minimize lookup costs.
 
@@ -19,10 +19,10 @@ A project metadata management methodology shared between AI agents and humans. T
 | File | Contents |
 | :--- | :--- |
 | [01.MASTER_GUIDE](01.MASTER_GUIDE.md) | System philosophy, core elements, AI behavioral guidelines, resource optimization conventions |
-| [02.SCHEMA_DEF](02.SCHEMA_DEF.md) | Status codes, Link types, TECH_SPEC checkboxes, SYNCED_AT rules |
+| [02.SCHEMA_DEF](02.SCHEMA_DEF.md) | Status codes, Link types, TODO checkboxes, SYNCED_AT rules |
 | [03.ADDRESS_CONVENTION](03.ADDRESS_CONVENTION.md) | URI address system (`M://`, `W://`, `D://`) and physical file path conversion |
 | [04.STORAGE](04.STORAGE.md) | Directory structure, file naming, Git integration conventions |
-| [05.ELEMENT_FORMAT](05.ELEMENT_FORMAT.md) | Map/WayPoint/dwp/LOADSTAR_INIT/Decision formats, TECH_SPEC archive, RECURRING item conventions |
+| [05.ELEMENT_FORMAT](05.ELEMENT_FORMAT.md) | Map/WayPoint/dwp/LOADSTAR_INIT/Decision formats, GOAL slot, TODO archive, RECURRING item conventions |
 | [06.CLI_SPEC](06.CLI_SPEC.md) | CLI command specification (`init`, `show`, `todo`, `log`, `question`, `validate`) |
 | [07.TODO_SPEC](07.TODO_SPEC.md) | TODO system specification — WayPoint STATUS-based auto-sync |
 | [08.META_SYNC](08.META_SYNC.md) | Meta-sync strategy (prompt + CLAUDE.md + Hook + post-verification) |

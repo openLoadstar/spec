@@ -35,7 +35,7 @@ UI에서는 Block을 기본 동작으로 하되, "산하 WP N개가 있습니다
 - Interactive는 초기 구현 복잡도 대비 이익 불확실 — v2로 유보
 
 ### IMPACT
-- `W://root/maintenance/orphan_delete` TECH_SPEC에 추가:
+- `W://root/maintenance/orphan_delete` TODO에 추가:
   - [ ] MAP 삭제 API에 산하 WP 존재 여부 사전 체크 로직 추가
   - [ ] 삭제 차단 시 "N개 하위 요소가 존재" 응답 구조화
   - [ ] `--cascade` 플래그(CLI) / Cascade 버튼(UI) 구현

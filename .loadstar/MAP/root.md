@@ -3,12 +3,14 @@
 
 ### IDENTITY
 - SUMMARY: LOADSTAR SPEC 저장소 루트 — SPEC 본문(01~09) 및 internal 자료의 정합성 관리
-- SYNCED_AT: 2026-05-08
+- SYNCED_AT: 2026-05-11
 
 ### WAYPOINTS
 - W://root/initial_spec_v1_3_12
 - W://root/spec_v1_3_13_patch
 - W://root/spec_v1_4_0_dwp_introduction
+- W://root/spec_v1_5_0_validation_and_todo_flatten
+- W://root/spec_v1_6_0_goal_slot
 
 ### COMMENT
 - SPEC 자체도 LOADSTAR 방법론으로 관리한다 (메타-원칙).
