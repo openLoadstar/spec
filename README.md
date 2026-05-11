@@ -39,8 +39,10 @@ A project metadata management methodology shared between AI agents and humans. T
 
 ## 🧭 Core Concepts
 
-- **Map (M://)** — A structural guide for navigating WayPoints. Represents hierarchy only; not a work unit.
-- **WayPoint (W://)** — The execution unit for all work. Composed of IDENTITY / CONNECTIONS / CODE_MAP / TECH_SPEC / ISSUE.
+- **Map (M://)** — A structural guide for navigating WayPoints. Represents hierarchy only; not a work unit. Carries a **GOAL** slot for the high-level intent of the sub-tree.
+- **WayPoint (W://)** — The execution unit for all work. Composed of IDENTITY / CONNECTIONS / CODE_MAP / TODO / ISSUE. Carries a **GOAL** slot that states the single intent this WayPoint fulfils.
+- **Data WayPoint (D://)** — A metadata record for a data artifact (config file, reference data, static state) that changes independently of code. Stored in `.loadstar/DATA_WAYPOINT/`. `loadstar validate` detects ORPHAN / DANGLING DWPs.
+- **GOAL** — The *intent* field on both Map and WayPoint. Distinct from SUMMARY (identity) and TODO (execution). Maps hold a broad goal; WayPoints hold a narrowly scoped goal derived from their parent Map's GOAL. Used in the Goals Report screen to trace the intent hierarchy.
 - **CODE_MAP** — A section within a WayPoint. Constrains the search scope for code-change work to specific directories.
 - **Link / SavePoint** — A strict separation between logical relationships and physical locations.
 - **Tolerable Consistency** — Rather than perfect consistency, the goal is "knowing where the drift is."
