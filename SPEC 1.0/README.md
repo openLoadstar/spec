@@ -4,6 +4,9 @@
 
 **Version: v1.8.0** (2026-06-01, prototype)
 
+> **📦 Superseded by [SPEC 2.0](../SPEC%202.0/README.md)**
+> 1.0 stays here for projects already running on it. New projects should start from 2.0 — a redesign that drops the parts of 1.0 that went unused and adds a rebuildable metadata index. See [what changed](../SPEC%202.0/README.md#-what-changed-from-10).
+
 A project metadata management methodology shared between AI agents and humans. Tracks code modification intent and work units as **WayPoints**, with **URI-based pinpoint access** to minimize lookup costs.
 
 > **⚠️ Prototype**
