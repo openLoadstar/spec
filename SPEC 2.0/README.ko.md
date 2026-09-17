@@ -31,7 +31,7 @@ AI 에이전트와 사람이 공유하는 프로젝트 메타데이터 관리 �
 
 | 1.0 | 2.0 |
 | :--- | :--- |
-| `.loadstar/{MAP,WAYPOINT,DATA_WAYPOINT,DECISIONS,GD,COMMON,.clionly}/` | `.loadstar/{WP,DWP,GROUP,OTHER}/` + `.loadstar/.cache/index.db` (git 제외, 재생성 가능) |
+| `.loadstar/{MAP,WAYPOINT,DATA_WAYPOINT,DECISIONS,GD,COMMON,.clionly}/` | `.loadstar/{WP,DWP,GROUP,OTHER,FLOW}/` + `.loadstar/.cache/index.db` (git 제외, 재생성 가능) |
 | 주소 → 디렉토리 매핑 표 | `FORMAT` 값이 곧 폴더명 |
 | 스펙 문서 9개 | 스펙 문서 5개 + FORMAT별 부록 |
 
@@ -55,6 +55,7 @@ AI 에이전트와 사람이 공유하는 프로젝트 메타데이터 관리 �
 | [appendix/DWP.md](appendix/DWP.md) | **Data WayPoint** — 데이터의 개념적 자기소개. TODO·GOAL 없음, `TABLES`는 선택 |
 | [appendix/GROUP.md](appendix/GROUP.md) | **Group** — 선택적 카테고리 컨테이너. `CONNECTIONS.ITEMS`만 갖는다 |
 | [appendix/OTHER.md](appendix/OTHER.md) | **Other** — 조직화하고 싶은 자유 형식 파일. 명명 규칙과 공통 봉투가 면제되는 유일한 FORMAT |
+| [appendix/FLOW.md](appendix/FLOW.md) | **Flow** — 업무·처리 흐름을 mermaid 그림 한 장으로. 각 노드는 WP / DWP / 다른 FLOW를 가리킬 수 있다 |
 
 새 요소 타입은 부록을 하나 추가하는 것으로 확장한다 — 공통 규칙은 건드리지 않는다.
 

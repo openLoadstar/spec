@@ -31,7 +31,7 @@ And the one thing 2.0 **adds**: a metadata extraction pipeline over a SQLite der
 
 | 1.0 | 2.0 |
 | :--- | :--- |
-| `.loadstar/{MAP,WAYPOINT,DATA_WAYPOINT,DECISIONS,GD,COMMON,.clionly}/` | `.loadstar/{WP,DWP,GROUP,OTHER}/` + `.loadstar/.cache/index.db` (git-ignored, rebuildable) |
+| `.loadstar/{MAP,WAYPOINT,DATA_WAYPOINT,DECISIONS,GD,COMMON,.clionly}/` | `.loadstar/{WP,DWP,GROUP,OTHER,FLOW}/` + `.loadstar/.cache/index.db` (git-ignored, rebuildable) |
 | Address → directory mapping table | `FORMAT` *is* the directory name |
 | 9 spec documents | 5 spec documents + one appendix per FORMAT |
 
@@ -55,6 +55,7 @@ And the one thing 2.0 **adds**: a metadata extraction pipeline over a SQLite der
 | [appendix/DWP.md](appendix/DWP.md) | **Data WayPoint** — the conceptual self-description of a data artifact. No TODO, no GOAL; optional `TABLES` |
 | [appendix/GROUP.md](appendix/GROUP.md) | **Group** — an optional category container. Only `CONNECTIONS.ITEMS` |
 | [appendix/OTHER.md](appendix/OTHER.md) | **Other** — free-form files that need to be organizable. The one FORMAT exempt from the naming rule and the common envelope |
+| [appendix/FLOW.md](appendix/FLOW.md) | **Flow** — a process or business flow as one mermaid diagram, with each node optionally pointing at a WP / DWP / another FLOW |
 
 A new element type is added by writing a new appendix — the common rules do not change.
 
