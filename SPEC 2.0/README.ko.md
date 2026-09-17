@@ -45,7 +45,7 @@ AI 에이전트와 사람이 공유하는 프로젝트 메타데이터 관리 �
 | [02.ELEMENT_FORMAT](02.ELEMENT_FORMAT.md) | 모든 요소 공통 규칙 — 명명, 신원, 참조 방식, 공통 봉투, 요소 카탈로그, 물리 저장 경로 |
 | [03.SCHEMA_DEF](03.SCHEMA_DEF.md) | 공통 어휘(상태 코드, 체크박스 규약, URL 스킴) — ⚠️ 미작성 |
 | [04.META_EXTRACTION](04.META_EXTRACTION.md) | 추출 파이프라인(구조 추출기 / AI 보강 / 온디맨드 도메인 조회기), DB 스키마, Validator, 미결 사항 |
-| [05.CLI_SPEC](05.CLI_SPEC.md) | CLI 명령 규격 (`create`, `show`, `reindex`, 그리고 `todo` / `issues` / `validate` ⚠️ 미구현) |
+| [05.CLI_SPEC](05.CLI_SPEC.md) | CLI 명령 규격 (`create`, `show`, `reindex`, `validate`, 그리고 `todo` / `issues` ⚠️ 미구현) |
 
 ### 부록 — FORMAT 하나당 하나
 

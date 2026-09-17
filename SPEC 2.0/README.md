@@ -45,7 +45,7 @@ And the one thing 2.0 **adds**: a metadata extraction pipeline over a SQLite der
 | [02.ELEMENT_FORMAT](02.ELEMENT_FORMAT.md) | Rules common to every element — naming, identity, references, the shared envelope, the element catalog, physical paths |
 | [03.SCHEMA_DEF](03.SCHEMA_DEF.md) | Shared vocabulary (status codes, checkbox conventions, URL schemes) — ⚠️ not written yet |
 | [04.META_EXTRACTION](04.META_EXTRACTION.md) | Extraction pipeline (structure extractor / AI enrichment / on-demand domain query), DB schema, validator, open points |
-| [05.CLI_SPEC](05.CLI_SPEC.md) | CLI command specification (`create`, `show`, `reindex`, and `todo` / `issues` / `validate` ⚠️ not implemented yet) |
+| [05.CLI_SPEC](05.CLI_SPEC.md) | CLI command specification (`create`, `show`, `reindex`, `validate`, and `todo` / `issues` ⚠️ not implemented yet) |
 
 ### Appendices — one per FORMAT
 
